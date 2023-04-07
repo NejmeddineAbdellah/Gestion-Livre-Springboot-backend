@@ -25,6 +25,8 @@ public class Livre {
 	@Temporal(TemporalType.DATE)
 	private Date dateEdition;
 	
+	//test
+	
 	@ManyToMany(mappedBy = "livres")
 	@JsonIgnore
 	List<Auteur> auteurs;
